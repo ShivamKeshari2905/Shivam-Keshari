@@ -1,0 +1,68 @@
+html {
+  background: url(https://marciokenobi.files.wordpress.com/2012/12/stan-lee.jpg);
+  background-size: cover;
+}
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: block;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  padding: 30px 0 20px 0;
+  border-bottom: 1px solid white;
+}
+
+h4 {
+  padding: 20px 0;
+  font-weight: 500;
+}
+img {
+  padding: 15px;
+  border: 1px solid white;
+}
+
+section {
+  margin: 30px 0;
+}
+
+article {
+  max-width: 600px;
+  margin: 30px auto;
+  font-size: 1.15em;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid white;
+}
+a, a:hover, a:visited {
+  color: skyblue;
+  margin: 0 10px;
+}
+
+a:hover{
+  color:bisque;
+}
+
+.centered {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 520px;
+}

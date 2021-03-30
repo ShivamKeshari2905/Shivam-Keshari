@@ -1,0 +1,19 @@
+.one{
+    background-color: skyblue;
+    border: 3px solid black;
+}
+.two{
+    background-color: skyblue;
+    border: 2px solid black;
+}
+.three{
+    background-color: skyblue;
+    border: 1px solid black;
+}
+.four{
+    background-color: skyblue;
+    color: transparent;
+}
+body{
+    border: 1px solid black;
+}

@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:rgb(255, 255, 249);
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .bg-image{
+      background: url("Event/m5.jpg") no-repeat center/cover;
+      height:100vh;
+      width:100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+  }
+  nav {
+    height: 50px;
+    width: 100%;
+    background-color:orange;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 15;
+  }
+  nav ul {
+    display:block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  nav li {
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color:white;
+    text-decoration: none;
+  }
+  nav li:hover {
+    background-color: rgb(247, 117, 10);
+    height: 50px;
+  }
+  h1{
+    height: 40px;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    font-size: 70px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 11;
+    padding-bottom: 0px;
+  }
+  .logo{
+    background:lightsalmon;
+    height: 100px;
+    padding: 100px,50px,500px,50px;
+  }
+  .bg-image h3{
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-family:cursive ;
+    z-index: 11;
+    top:60%;
+    left: 50%;
+    padding:0px 12px;
+  }
+  #speakers {
+    display: block;
+    padding:20px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    align-items: center;
+    font-size:x-large;
+    
+  }
+
+  #speakers ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #speakers li {
+    margin-bottom: 15px;
+    background-image: linear-gradient(to bottom, yellow, #ffd311, #ff9011);
+    color:black;
+  }
+
+  .card-content {
+    height:80px;
+    
+  }
+  .card-title{
+    padding-bottom: 50px;
+    
+  }
+  .card img{
+      height: 280px; 
+      width: 300px;
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .card:hover{
+      border: 3px outset gray;
+  }
+ 
+  .speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 6rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  }
+
+  /*Schedule*/
+.section-a{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    color:black;
+    height: 300px;
+  }
+  .section-a h3{
+    text-align: center;
+  } 
+  .sdate, .edate{
+    padding:70px;
+  }
+  .details{
+    color: black;
+    background-color:rgb(255, 239, 15);
+    padding: 15px 0px;
+  }
+  /*venue*/
+  .section-b{
+    background-color: orange;
+    padding: 20px 0 30px 0;
+    color: black;
+  }
+  .section-b h3{
+    font-size: 30px;
+  }
+  .section-b p{
+    font-size: 25px;
+  }
+  .section-c{
+    padding:20px;
+  }
+  .section-c a{
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+  }
+  .section-c a:hover{
+    background-color: rgb(202, 40, 11);
+  }
+  /* Footer */
+
+  .primary-footer {
+    padding: 1em;
+    background: rgb(61, 60, 60);
+    color: #fff;
+    height:30px;
+    text-align: center;
+  }
+
+  /* Media Queries */
+
+  @media (min-width: 768px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+
+    .content-wrap,
+    #speakers ul {
+      grid-column: 2/4;
+    }
+
+    .box,
+    #main-footer div {
+      grid-column: span 2;
+    }
+
+    #speakers ul {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #speakers li {
+      width: 31%;
+    }
+    
+  }
